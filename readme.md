@@ -1,6 +1,10 @@
 ### first
 * f1
-    * f2
+    * nim
+        ```nim
+        proc bar(mee:uint8)=
+            discard
+        ```
 #### second test
 * s1
     * s2
@@ -11,7 +15,7 @@
             end
             ```
 ##### third test
-* t1
+* c
     ```c
     const char*    t1;
     uint8_t        t2;
