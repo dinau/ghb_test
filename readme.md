@@ -1,22 +1,24 @@
 ### first
-* f1
-    * nim
-        ```nim
-        proc bar(mee:uint8)=
-            discard
-        ```
+* nim
+    ```nim
+    proc ntest(mee:uint8)=
+        discard
+    ```
 #### second test
-* s1
-    * s2
-        * ruby
-            ```ruby
-            if true
-                print "ruby"
-            end
-            ```
+* ruby
+    ```ruby
+    def rtest
+        if true
+            print "ruby"
+        end
+    ```
 ##### third test
 * c
     ```c
     const char*    t1;
     uint8_t        t2;
+    int16_t ctest(void){
+        return 5;
+    }
+        
     ```
