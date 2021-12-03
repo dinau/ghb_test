@@ -1,23 +1,24 @@
-## a
-* Loal
-    1. Make new **topic branch** on orgin/HEAD ,origin/master.
+## This is just a private practice and memo to use Git and Github.
+## (a)
+* Local side
+    1. Make new **topic branch** on origin/master.
     1. Make some changes to source code.
     1. Commit them to **local repository**.
     1. Repeat form 2 some times. 
     1. In **topic barnch**, push self to git server. 
-    * Server:
-        1. On git server, a **compare & pull request** becomes available. 
-        1. Do merge **the pull request** on git server.
-    * Return local:
-        1. **Fetch** from server.
-        1. Do fast forward with **remote/origin/master**.
+    * Server side:
+        1. A **compare & pull request** becomes available. 
+        1. Do merge **the pull request**.
+    * Return local side:
+        1. Do **fetch** from server.
+        1. Do **fast forward** with **remote/origin/master**.
         1. Complete.
 
-## b
+## (b)
 1. Do change some source code **without topic branch**.
 1. Commit them to local repository.
 1. Repeat form 2 some times. 
-1. In **topic barnch**, push self to git server. 
+1. In **topic branch**, push self to git server. 
 1. On git server, a **compare & pull request** becomes available. 
 1. Do merge **the pull request** on git server.
 
