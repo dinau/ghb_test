@@ -1,0 +1,7 @@
+name: firs-actions-test
+on: [push]
+jobs:
+  jb1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: lsb_release -a
