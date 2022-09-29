@@ -4,8 +4,5 @@ jobs:
   jb1:
     runs-on: ubuntu-latest
     steps:
-      - run: sudo apt install nim
-      - run: gcc -v
-      - run: arm-none-eabi-gcc -v
-      - run: avr-gcc -v
+      - run: dpkg -l
 
