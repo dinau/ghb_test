@@ -4,7 +4,8 @@ jobs:
   jb1:
     runs-on: ubuntu-latest
     steps:
-      - run: lsb_release -a > err.txt
-      - run: cat err.txt
-      - run: echo "test aciton echo here"
+      - run: sudo apt install nim
+      - run: gcc -v
+      - run: arm-none-eabi-gcc -v
+      - run: avr-gcc -v
 
