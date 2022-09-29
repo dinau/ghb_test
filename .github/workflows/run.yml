@@ -4,4 +4,7 @@ jobs:
   jb1:
     runs-on: ubuntu-latest
     steps:
-      - run: lsb_release -a
+      - run: lsb_release -a > err.txt
+      - run: cat err.txt
+      - run: echo "test aciton echo here"
+
