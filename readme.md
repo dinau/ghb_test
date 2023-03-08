@@ -1,10 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [This is just a private practice and memo to use Git and Github.](#this-is-just-a-private-practice-and-memo-to-use-git-and-github)
+- [(a)](#a)
+- [(b)](#b)
+  - [first](#first)
+    - [second test](#second-test)
+      - [third test](#third-test)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## This is just a private practice and memo to use Git and Github.
+
 ## (a)
+
+---
+
 * Local side
     1. Make new **topic branch** on origin/master.
     1. Make some changes to source code.
     1. Commit them to **local repository**.
-    1. Repeat form 2 some times. 
+    1. Repeat form 2. some times. 
     1. In **topic barnch**, push self to git server. 
     * Server side:
         1. A **compare & pull request** becomes available. 
@@ -15,6 +31,9 @@
         1. Complete.
 
 ## (b)
+
+---
+
 1. Do change some source code **without topic branch**.
 1. Commit them to local repository.
 1. Repeat form 2 some times. 
@@ -24,26 +43,39 @@
 
 
 ### first
-* nim
-    ```nim
-    proc ntest(mee:uint8)=
-        discard
-    ```
+
+---
+
+- nim
+
+   ```nim
+   proc ntest(mee:uint8) =
+       discard
+   ```
+
 #### second test
-* ruby
-    ```ruby
-    def rtest
-        if true
-            print "ruby"
-        end
-    ```
+
+--- 
+
+- ruby
+
+   ```ruby
+   def rtest
+       if true
+           print "ruby"
+       end
+   ```
+
 ##### third test
-* c
-    ```c
-    const char*    t1;
-    uint8_t        t2;
-    int16_t ctest(void){
-        return 5;
-    }
-        
-    ```
+
+---
+
+- c
+
+   ```c
+   const char*    t1;
+   uint8_t        t2;
+   int16_t ctest(void){
+       return 5;
+   }
+   ```
