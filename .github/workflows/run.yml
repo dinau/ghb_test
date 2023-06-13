@@ -1,12 +1,17 @@
 name: firs-actions-test
 on: [push]
 jobs:
-  jb1:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        nim: [ '1.6.12', 'devel' ]
+    name: Nim ${{ matrix.nim }} sample
     steps:
       - uses: actions/checkout@master
-      - uses: jiro4989/setup-nim-action@v1
+      - name: Setup nim
+        uses: jiro4989/setup-nim-action@v1
         with:
-          nim-version: '1.6.12'
+          nim-version: ${{ matrix.nim }}
       - run: nimble run
 
