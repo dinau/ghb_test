@@ -4,5 +4,5 @@ jobs:
   jb1:
     runs-on: ubuntu-latest
     steps:
-      - run: dpkg -l
+      - run: nimble run
 
