@@ -4,6 +4,7 @@ jobs:
   jb1:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - uses: jiro4989/setup-nim-action@v1
         with:
           nim-version: '1.6.12'
